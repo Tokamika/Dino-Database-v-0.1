@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Dino's database</title>
+</head>
+<body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    <header>
+    <a href="index.html" class="logo">THE DINO DATABASE</a>
+    <nav class="navigation">
+        <a href="all_dino.html">All the dinosaures</a>
+        <a href="new_dino.html">New added</a>
+        <a href="#contact">Contact US</a>
+    </nav>
+    </header>
+    <section class="main">
+        <center>
+        <div>
+            <h1>Welcome to the Dino Database</h1>
+            <h3>You'll find here some informations about the dinosaures you love .</h3>
+            <a href="new_dino.html" class="main-btn">View new added dinosaures</a>
+        </div>
+        <div class="social-ic">
+            <div>
+            <a href="https://www.facebook.com/akoukoukoukou1"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UC2D2RLJzcnptco7mfOVyxNQ"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/Tokamika"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div>
+            <h1>The data are still under developement</h1>
+            </div>
+    </center>
+    </section>
+
+    <section class="show" id="showcase">
+         <h2 class="title">showcase</h2>
+         <div class="content">
+             <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-border-all"></i>
+                </div>
+                <div class="info">
+                    <h3>A pretty usefull and fun informations</h3>
+                    <p>We try our best to give you some fun informations on the creatures that lived on this planet before us in this website .</p>
+                </div>
+             </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-calendar-plus"></i>
+                </div>
+                <div class="info">
+                    <h3>monthly updates</h3>
+                    <p>We will put new data monthly to keep this website live .</p>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">PLease contact US</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+21306********</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>ak*********@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <fieldset style="background-color:beige;">
+            <center>
+        <legend>Register</legend>
+        <form method="POST" action="connect.php">
+        <p>
+        <label>User Name</label>
+        <input type="text" name="UN">
+        </p>
+        <p>
+        <label>Email</label>
+        <input type="text" name="Email">
+        </p>
+        <p>
+        <label>Password</label>
+        <input type="text" name="Password">
+        </p>
+        <p>
+        <input type="submit" value="Submit">
+        </p>
+        </form>
+        </center>
+        </fieldset>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>Maatallah Akram</span></p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/akoukoukoukou1"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UC2D2RLJzcnptco7mfOVyxNQ"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/Tokamika"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div>This is a simple university project made by Akram Maatallah L2 groupe 07</div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+
+</body>
+</html>
